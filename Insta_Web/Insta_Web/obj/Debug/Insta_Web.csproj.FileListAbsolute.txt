@@ -5,3 +5,10 @@ E:\Projects\Insta_Web\Insta_Web\obj\Debug\Insta_Web.dll
 E:\Projects\Insta_Web\Insta_Web\obj\Debug\Insta_Web.pdb
 E:\Projects\Insta_Web\Insta_Web\obj\Debug\Insta_Web.csprojAssemblyReference.cache
 E:\Projects\Insta_Web\Insta_Web\obj\Debug\Insta_Web.csproj.CoreCompileInputs.cache
+D:\Ravi Projects\insta-project\Insta_Web\Insta_Web\bin\Insta_Web.dll.config
+D:\Ravi Projects\insta-project\Insta_Web\Insta_Web\bin\Insta_Web.dll
+D:\Ravi Projects\insta-project\Insta_Web\Insta_Web\bin\Insta_Web.pdb
+D:\Ravi Projects\insta-project\Insta_Web\Insta_Web\obj\Debug\Insta_Web.csprojAssemblyReference.cache
+D:\Ravi Projects\insta-project\Insta_Web\Insta_Web\obj\Debug\Insta_Web.csproj.CoreCompileInputs.cache
+D:\Ravi Projects\insta-project\Insta_Web\Insta_Web\obj\Debug\Insta_Web.dll
+D:\Ravi Projects\insta-project\Insta_Web\Insta_Web\obj\Debug\Insta_Web.pdb
