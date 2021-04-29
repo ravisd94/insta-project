@@ -1,0 +1,31 @@
+//Influencer_Table
+	CREATE TABLE dbo.Influencer_Table
+	(
+	Influencer_ID int IDENTITY(1,1) PRIMARY KEY,
+	Influencer_Name nvarchar(100) NOT NULL,
+	Insta_ID nvarchar(100) NOT NULL,
+	Insta_Link nvarchar(max) NULL
+	)  ON [PRIMARY]
+
+//Category_Table
+CREATE TABLE dbo.Category_Table
+	(Category_ID int IDENTITY(1,1) PRIMARY KEY,
+	Category_Name nvarchar(50) NOT NULL
+	)
+//Image_Table
+CREATE TABLE dbo.Image_Table
+	(
+	Image_ID int IDENTITY(1,1) PRIMARY KEY,
+	Image_Name nvarchar(100) NOT NULL,
+	Influencer_ID int FOREIGN KEY REFERENCES Influencer_Table(Influencer_ID),
+	Image_Path nvarchar(max)  NOT NULL,
+	Added_Date datetime NOT NULL DEFAULT (GETDATE()),
+	Category_ID int FOREIGN KEY REFERENCES Category_Table(Category_ID) ,
+	)  ON [PRIMARY]
+
+//Popularity_Table
+CREATE TABLE dbo.Popularity_Table
+	(
+	Image_ID int FOREIGN KEY REFERENCES Image_Table(Image_ID),
+	View_Count int NOT NULL DEFAULT (0)
+	) 

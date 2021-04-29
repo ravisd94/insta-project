@@ -1,0 +1,4 @@
+ INSERT INTO [dbo].[Influencer_Table]
+ VALUES('Prasad Deshmukh','prasad_d21','https://www.instagram.com/prasad_d21/'),
+('Ravi Dhondkar','ravi.dhondkar','https://www.instagram.com/ravi.dhondkar/'),
+('David Laid','davidlaid','https://www.instagram.com/davidlaid/')
